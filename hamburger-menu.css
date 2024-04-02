@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*CSS Document*/
+
+.mobile_btn {
+    position: relative;
+    display: none;
+}
+
+.hamburger>span {
+    border-radius: 50px;
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.hamburger-wrap.active span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger-wrap.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-wrap.active span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+
+/**사이드 메뉴바 배경**/
+.sidebar {
+    display: none;
+    position: absolute;
+    width: 100px;
+    margin-left: -100%;
+    margin-top: 70px;
+    transition: all 0.7s;
+    background: black;
+    border-radius: 25px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.sidebar>hr {
+    border: 1px solid rgb(0, 255, 209);
+}
+
+.sidebar.on {
+    margin-left: 0;
+}
+
+.side-menu {
+    top: 200px;
+    width: 100%;
+}
+
+.side-menu>li>a {
+    display: block;
+    color: rgb(0, 255, 209);
+}
+
+.sidebar .side-menu li {
+    /* display: flex; */
+    font-size: 20px;
+    border-bottom: 1px solid rgb(0, 255, 209);
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.sidebar li a {
+    transition: all 0.4s;
+}
+
+.sidebar li a:hover,
+.sidebar ul li:hover a {
+    color: #bbbbbb;
+}
+
+.sidebar>h2>a {
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 40px 0;
+    color: rgb(0, 255, 209);
+}
