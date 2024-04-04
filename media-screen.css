@@ -105,6 +105,17 @@
     }
 
     /* section3 */
+    .pie-chart {
+        width: 120px;
+        height: 120px;
+    }
+
+    span.center {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+
     /* section4 */
     /* section5 */
     /* footer */
