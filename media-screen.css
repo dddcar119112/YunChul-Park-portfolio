@@ -180,6 +180,13 @@
         top: 50%;
     }
 
+    .rotate_box1 {
+        width: 250%;
+        aspect-ratio: 1;
+        border-radius: 40%;
+        animation: rotate 13s infinite linear;
+    }
+
     /* section2 */
     /* section3 */
     /* section4 */
