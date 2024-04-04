@@ -183,7 +183,7 @@
     .rotate_box1 {
         width: 250%;
         aspect-ratio: 1;
-        border-radius: 40%;
+        border-radius: 41%;
         animation: rotate 13s infinite linear;
     }
 
