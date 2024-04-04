@@ -189,6 +189,15 @@
 
     /* section2 */
     /* section3 */
+    .section3_main_ul>li {
+        width: 50%;
+    }
+
+    .pie-chart {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     /* section4 */
     /* section5 */
     .section5_main_ul {

@@ -410,6 +410,29 @@
 
         /** 도넛차트 **/
 
+        // const pieChart = document.getElementsByClassName('pie-chart');
+        // const pieArr = [90,90,70,60]
+
+        // const pieObserver = new IntersectionObserver(
+        //     (entries, observer) => {
+        //         entries.forEach((entry) => {
+        //             if (entry.isIntersecting) {
+        //                 // 화면에 들어옴
+        //                 //    파이차트 재생
+        //             } else {
+        //                 // 화면에서 나감
+        //                 // 파이차트 초기화
+        //             }
+        //         });
+        //     },
+        //     // 화면에서 해당 요소가 10% 이상 보일 경우 화면에 들어온 것으로 판단함
+        //     { threshold: 0.1 }
+        // );
+
+        // pieChart.forEach(element => {
+        //     pieObserver.observe(element);
+        // });
+
         $(window).on('scroll', function () {
             let section3Top = $('#section3').offset().top;
             let windowTop = $(window).scrollTop();
@@ -442,6 +465,7 @@
                 "background": "conic-gradient(" + colorname + " 0% " + i + "%, black " + i + "% 100%)"
             });
         }
+
 
 
 
